@@ -16,5 +16,5 @@ require $autoload;
 use SetKyar\MoneyFormat\MoneyFormat;
 
 $currency = new MoneyFormat;
-var_dump($currency->Format(2000000000000000, 'Kyats'));
+var_dump($currency->Format(2000, 'Kyats'));
 
