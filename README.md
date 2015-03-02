@@ -4,6 +4,16 @@ You want to format your money? Let's format with simply way :)
 
 ### Usage
 
+Create `composer.json` and add the following
+
+    {
+      "require" : {
+        "setkyar/moneyformat" : "dev-master"
+      }
+    }
+
+Create new php file and add the following 
+
      <?php
     
      // Display Errors On
@@ -13,7 +23,7 @@ You want to format your money? Let's format with simply way :)
     
      if ( ! file_exists($autoload))
      {
-     	exit("Need to run \"composer install\"!");
+          exit("Need to run \"composer install\"!");
      }
     
      require $autoload;
@@ -23,7 +33,7 @@ You want to format your money? Let's format with simply way :)
     
      var_dump($currency->Format(2000, 'Kyats')); //string(11) "Kyats 2,000"
 
-	var_dump($currency->Format(2000, 'USD')); //string(11) "USD 2,000"
+     var_dump($currency->Format(2000, 'USD')); //string(11) "USD 2,000"
      
 
 
