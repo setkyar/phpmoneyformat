@@ -1,0 +1,21 @@
+{
+    "name": "setkyar/phpcurrencyformat",
+    "description": "Format your currency formattly",
+    "license": "MIT",
+    "keywords": ["currency format"],
+    "authors": [
+        {
+            "name": "Set Kyar Wa Lar",
+            "email": "setkyar16@gmail.com"
+        }
+    ],
+    "require": {},
+    "require-dev": {
+        "phpunit/phpunit": "4.0.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "SetKyar\\phpcurrencyformat\\": "src"
+        }
+    }
+}
