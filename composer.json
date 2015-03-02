@@ -1,6 +1,6 @@
 {
     "name": "setkyar/phpcurrencyformat",
-    "description": "Format your currency formattly",
+    "description": "Format your money",
     "license": "MIT",
     "keywords": ["currency format"],
     "authors": [
@@ -17,7 +17,7 @@
     },
     "autoload": {
         "psr-4": {
-            "SetKyar\\phpcurrencyformat\\": "src"
+            "SetKyar\\MoneyFormat\\": "src"
         }
     }
 }
