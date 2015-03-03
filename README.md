@@ -51,5 +51,7 @@ Create new php file and add the following
 4. Push to the branch (`git push origin my-new-feature`)
 5. Create a new Pull Request
 
+**Stars to both [Packagist](https://packagist.org/packages/setkyar/phpcurrencyformat/) and [Here](https://github.com/setkyar/phpmoneyformat) are welcome :)**
+
 ## License
 WTFPL
