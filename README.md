@@ -2,7 +2,7 @@
 
 You want to format your money? Let's format with simply way :)
 
-### Usage
+## Installation
 
 Create `composer.json` and add the following
 
@@ -11,6 +11,10 @@ Create `composer.json` and add the following
         "setkyar/moneyformat" : "dev-master"
       }
     }
+
+And run `$ composer install` via your terminal
+
+## Usage
 
 Create new php file and add the following 
 
@@ -35,5 +39,17 @@ Create new php file and add the following
 
      var_dump($currency->Format(2000, 'USD')); //string(11) "USD 2,000"
      
+## Todo
 
+- Write Test
 
+## Contributing
+
+1. Fork it ( https://github.com/setkyar/phpmoneyformat )
+2. Create your feature branch (`git checkout -b my-new-feature`)
+3. Commit your changes (`git commit -am 'Add some feature'`)
+4. Push to the branch (`git push origin my-new-feature`)
+5. Create a new Pull Request
+
+## License
+WTFPL

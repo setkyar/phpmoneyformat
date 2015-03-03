@@ -1,7 +1,7 @@
 {
     "name": "setkyar/moneyformat",
     "description": "Format your money",
-    "license": "MIT",
+    "license": "wtfpl",
     "keywords": ["money format"],
     "authors": [
         {
